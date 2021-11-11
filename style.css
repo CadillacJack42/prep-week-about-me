@@ -1,17 +1,26 @@
 * {
     background-color: #829CBC;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     color: #1F487E;
     text-align: center;
+    height: 100vh;
+    width: 100%;
+    /* display: grid;
+    grid-template-rows: 100px 1fr 10px;
+    grid-template-columns: 1fr; */
 }
 
+
 main {
-    margin: 0 35px;
-    max-height: 90vh;
-    overflow: auto;
+    padding: 50px 35px;
+    /* margin-top: 20px; */
+    max-height: 100%;
+    overflow: scroll;
     color: #1F487E;
 }
 
@@ -56,7 +65,7 @@ li {
 }
 
 #first {
-    height: 75vh;
+    /* height: 75vh; */
 }
 
 #paige {
@@ -65,18 +74,18 @@ li {
 }
 
 #second {
-    height: 75vh;
-    display: none;
+    /* height: 75vh; */
+    /* display: none; */
 }
 
 #third {
-    height: 75vh;
-    display: none;
+    /* height: 75vh; */
+    /* display: none; */
 }
  
 #fourth {
-    height: 75vh;
-    display: none;
+    /* height: 75vh; */
+    /* display: none; */
 }
 
 a {
@@ -85,4 +94,18 @@ a {
 
 a:hover {
     color: purple;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    /* display: flex;
+    align-items: flex-end; */
 }
